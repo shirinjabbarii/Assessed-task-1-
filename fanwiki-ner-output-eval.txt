@@ -1,3 +1,15 @@
-Precision: 1.00
-Recall: 1.00
-F1-Score: 1.00
+Fanwiki Evaluation Results
+============================
+
+CRFClassifier tagged 84 words in 5 documents at 525.25 words per second.
+              precision    recall  f1-score   support
+
+           O     1.0000    1.0000    1.0000        72
+      PERSON     1.0000    1.0000    1.0000        12
+
+    accuracy                         1.0000        84
+   macro avg     1.0000    1.0000    1.0000        84
+weighted avg     1.0000    1.0000    1.0000        84
+
+         Totals 1.0000  1.0000  1.0000
+

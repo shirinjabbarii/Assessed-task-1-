@@ -1,3 +1,17 @@
-Precision: 1.00
-Recall: 1.00
-F1-Score: 1.00
+Wikipedia Evaluation Results
+============================
+
+CRFClassifier tagged 10376 words in 380 documents at 3682.99 words per second.
+              precision    recall  f1-score   support
+
+    LOCATION     1.0000    1.0000    1.0000       121
+           O     1.0000    1.0000    1.0000      9577
+ORGANIZATION     1.0000    1.0000    1.0000       228
+      PERSON     1.0000    1.0000    1.0000       450
+
+    accuracy                         1.0000     10376
+   macro avg     1.0000    1.0000    1.0000     10376
+weighted avg     1.0000    1.0000    1.0000     10376
+
+         Totals 1.0000  1.0000  1.0000
+
