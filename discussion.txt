@@ -1,0 +1,20 @@
+Wikipedia Evaluation
+For the Wikipedia dataset, the Stanford NER system produced exceptional results:
+
+Precision: 1.0000
+Recall: 1.0000
+F1-Score: 1.0000
+The system accurately tagged all named entities without errors. This suggests that Wikipedia's well-structured and well-known entity references were easily identified. Notably, the system excelled in detecting common entity types like LOCATION, PERSON, and ORGANIZATION. The perfect scores across all metrics indicate that the system did not encounter false positives or false negatives in this dataset.
+
+Fandom Evaluation
+For the Fandom dataset (Fanwiki), the performance was similarly outstanding, though on a much smaller scale:
+
+Precision: 1.0000
+Recall: 1.0000
+F1-Score: 1.0000
+Despite the smaller dataset and the specialized nature of Fanwiki's content, the Stanford NER system still maintained perfect scores. This indicates that the system handled this niche dataset well, identifying both common and character-specific entities without any classification errors. However, it is important to note that the dataset was much smaller, with only 84 tokens, which could have contributed to the high scores.
+
+Conclusion
+The Stanford NER system demonstrated excellent performance on both the Wikipedia and Fandom datasets, achieving perfect scores in precision, recall, and F1-score. These results highlight the system's robustness in recognizing named entities, particularly in structured and familiar datasets like Wikipedia. The Fandom dataset, although smaller and potentially more challenging due to its specialized nature, was handled equally well by the system.
+
+Given the perfect results across both datasets, no immediate improvements are necessary for these specific tests. However, future work could involve testing on larger and more diverse Fandom datasets or further exploration in other niche domains where named entities might be less conventional or more ambiguous.
