@@ -1,0 +1,3 @@
+Precision: 1.00
+Recall: 1.00
+F1-Score: 1.00
